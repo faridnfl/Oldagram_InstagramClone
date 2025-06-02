@@ -1,0 +1,102 @@
+body {
+    box-sizing: border-box;
+    margin: 10px auto;
+    background-color: rgb(197, 197, 197);
+    width: 50%;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0px;
+}
+
+main {
+    background-color: white;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 3px solid rgba(213, 213, 213, 0.605);
+}
+
+.header-container .logo {
+    width: 30%;
+    height: 100%;
+}
+
+.header-container .icon {
+    width: 10%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.userProfile-container {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.userProfile-container img {
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.userProfile-container .user-name {
+    font-weight: bold;
+    margin-bottom: -8px;
+}
+
+.userProfile-container p {
+    font-size: 20px;
+}
+
+.userProfile-container div {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.userPost-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-container {
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.interaction-container img {
+    width: 8%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.bottom-container p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+span[class="bold"] {
+    margin-right: 5px;
+}
+
+.bottom-container p:not(.bold){
+    padding-bottom: 20px;
+}
